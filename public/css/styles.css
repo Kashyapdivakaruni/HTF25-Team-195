@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    width: 360px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.links {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.links button {
+    flex: 1;
+}
+
+h5 {
+    margin-bottom: 16px;
+}
+
+.mb-2 {
+    margin-bottom: 8px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+}
