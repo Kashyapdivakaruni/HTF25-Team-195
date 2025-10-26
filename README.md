@@ -1,59 +1,68 @@
-# Auth Web App
+﻿# HTF25-Team-195
 
-## Description
-This project is a simple web application that allows users to register and log in. It features a clean and responsive design, built using HTML, CSS, and JavaScript for the frontend, while utilizing Node.js for the backend API and serverless functions.
+## GitHub submission guide
 
-## Tech Stack
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js (for API and serverless functions)
-- **Deployment**: 
-  - Netlify (for serverless functions)
-  - Vercel (for serverless functions)
-- **Database**: (Assumed to be used in the API logic, e.g., MongoDB, Firebase, etc.)
+In this Readme, you will find a guide on how to fork this Repository, add files to it, and make a pull request to contribute your changes.
 
-## Project Structure
-```
-auth-web-app
-├── public
-│   ├── index.html
-│   ├── login.html
-│   ├── css
-│   │   └── styles.css
-│   └── js
-│       └── main.js
-├── api
-│   ├── login.js
-│   └── register.js
-├── netlify
-│   └── functions
-│       ├── login.js
-│       └── register.js
-├── netlify.toml
-├── vercel.json
-├── package.json
-├── .gitignore
-└── README.md
-```
+<details open>
+<summary><h3>1. Login to your GitHub Account</h3></summary>
+<br>
+<p>Go to <a href="https://github.com">github.com</a> to log in.</p>
+<ul>
+   <li>Open the <a href="https://github.com/cbitosc/HTF25-Team-195">current repo</a> in a new tab.</li>
+   <li>Perform all operations in the newly opened tab, and follow the current tab for instructions.</li>
+</ul>
+</details>
 
-## Deployment Instructions
+<details open>
+<summary><h3>2. Fork the Repository</h3></summary>
+<br>
+<p align="center">
+  <img src="fork.jpeg" alt="Fork the Repository" height="300">
+</p>
+<ul>
+ <li>In the newly opened tab, on the top-right corner, click on <b>Fork</b>.</li>
+ <li>Enter the <b>Repository Name</b> as <b>HTF25-Team-195</b>.</li>
+ <li>Then click <b>Create Fork</b>, leaving all other fields as default.</li>
+ <li>After a few moments, you can view your forked repo.</li>
+</ul>
+</details>
 
-### Netlify Deployment
-1. Ensure that your serverless functions are placed in the `netlify/functions` directory.
-2. Configure your `netlify.toml` file to specify build settings and redirects.
-3. Link your Git repository to Netlify and deploy the project.
-4. Test the API endpoints to ensure they work correctly.
+<details open>
+<summary><h3>3. Clone your Repository</h3></summary>
+<br>
+<ul>
+ <li>Click on <b>Code</b> and copy the <b>web URL</b> of your forked repository.</li>
+ <li>Open terminal on your local machine.</li>
+ <li>Run this command to clone the repo:</li>
+<pre><code>git clone https://github.com/your-username/HTF25-Team-195.git</code></pre>
+</ul>
+</details>
 
-### Vercel Deployment
-1. Ensure that your serverless functions are accessible in the `api` directory.
-2. Configure your `vercel.json` file to define routes and serverless functions.
-3. Link your Git repository to Vercel and deploy the project.
-4. Test the API endpoints to ensure they work correctly.
+<details open>
+<summary><h3>4. Adding files to the Repository</h3></summary>
+<br>
+<ul>
+ <li>While doing it for the first time, create a new branch for your changes:</li>
+<pre><code>git checkout -b branch-name</code></pre>
+ <li>Add files or modify existing ones.</li>
+ <li>Stage your changes:</li>
+<pre><code>git add .</code></pre>
+ <li>Commit your changes:</li>
+<pre><code>git commit -m "Descriptive commit message"</code></pre>
+ <li>Push your branch to your fork:</li>
+<pre><code>git push origin branch-name</code></pre>
+</ul>
+</details>
 
-## Usage
-- Clone the repository and navigate to the project directory.
-- Install dependencies using `npm install`.
-- Run the application locally using `npm start` (if applicable).
-- Access the application in your browser at `http://localhost:3000` (or the specified port).
+<details open>
+<summary><h3>5. Create a Pull Request</h3></summary>
+<br>
+<ul>
+ <li>Click on the <b>Contribute</b> button in your fork and choose <b>Open Pull Request</b>.</li>
+ <li>Leave all fields as default, then click <b>Create Pull Request</b>.</li>
+ <li>Wait a few moments; your PR is now submitted.</li>
+</ul>
+</details>
 
-## Testing
-Make sure to test both deployment options to ensure that the API endpoints work correctly in both environments.
+## Thanks for participating!
